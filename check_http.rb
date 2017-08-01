@@ -4,7 +4,7 @@ require "optparse"
 require "uri"
 require "net/http"
 
-DEFAULT_MIN_DAYS = 30
+DEFAULT_MIN_DAYS = 14
 
 options = ARGV.getopts("d:")
 
